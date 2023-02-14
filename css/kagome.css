@@ -1,19 +1,18 @@
 
 /*                页面美化:圆角 透明 遮罩 */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.88); /*背景遮罩的颜色*/
-  --trans-dark: rgba(25, 25, 25, 0.88); /*暗色模式背景遮罩的颜色*/
-  --border-style: 0px solid rgb(169, 169, 169); /*边框样式*/
-  --backdrop-filter: blur(5px) saturate(150%); /*背景滤镜:模糊 饱和*/
+	--trans-light: rgba(255, 255, 255, 0.88); /*背景遮罩的颜色*/
+	--trans-dark: rgba(25, 25, 25, 0.88); /*暗色模式背景遮罩的颜色*/
+	--border-style: 0px solid rgb(169, 169, 169); /*边框样式*/
+	--backdrop-filter: blur(5px) saturate(150%); /*背景滤镜:模糊 饱和*/
 
 
-  /*我的颜色: 各个主题色由浅至深*/
-  --snow-1:hsl(176, 50%, 60%);
-  --snow-2:#cefffc;
-  --snow-3:#00c4b6;
-  --snow-4:#8aabcc;
-  --test:rgb(197, 232, 252);
-  
+/*我的颜色: 各个主题色由浅至深*/
+	--snow-1:hsl(176, 50%, 60%);
+	--snow-2:#cefffc;
+	--snow-3:#00c4b6;
+	--snow-4:#8aabcc;
+	--test:rgb(197, 232, 252);
 
 }
 
