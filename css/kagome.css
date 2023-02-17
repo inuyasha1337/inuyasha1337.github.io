@@ -216,3 +216,30 @@ div#archive {
   margin: 5px;
 }
 
+.layout {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  margin: 0 auto;
+  padding: 40px 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.layout > div:first-child {
+  width: 90%;
+  transition: all 0.3s ease 0s;
+}
+.layout.hide-aside {
+  max-width: 1200px;
+}
