@@ -56,6 +56,7 @@
   backdrop-filter: var(--backdrop-filter);
   border-radius: 13px;
   border: var(--border-style);
+  height: 17em;
 }
 
 /* 首页侧栏卡片 */
@@ -134,7 +135,7 @@ div#archive {
 	backdrop-filter: var(--backdrop-filter);
 	border-radius: 13px;
 	border: var(--border-style);
-	height: 14em;
+	height: 17em;
   }
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
@@ -232,7 +233,7 @@ div#archive {
   flex: 1 auto;
   margin: 0 auto;
   padding: 40px 15px;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
 }
 
